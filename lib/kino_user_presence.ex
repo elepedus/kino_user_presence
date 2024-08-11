@@ -1,6 +1,6 @@
 defmodule KinoUserPresence do
   @moduledoc """
-  A module for tracking user presence in Kino applications.
+  A module for tracking user presence in Livebook applications.
 
   This module provides functionality to monitor user connections, track their
   activity through heartbeats, and execute callbacks when users join or leave.
@@ -32,7 +32,7 @@ defmodule KinoUserPresence do
       )
   """
   def listen(on_join, on_leave),
-      do: Kino.JS.Live.new(__MODULE__, %{join: on_join, leave: on_leave})
+    do: Kino.JS.Live.new(__MODULE__, %{join: on_join, leave: on_leave})
 
   @impl true
   def init(callbacks, ctx) do
