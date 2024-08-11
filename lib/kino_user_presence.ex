@@ -75,7 +75,7 @@ defmodule KinoUserPresence do
   def handle_event("pong", payload, ctx) do
     users =
       ctx.assigns.users
-      |> Map.update!(payload, fn map ->
+      |> Map.update(payload,%{last_seen: DateTime.utc_now()}, fn map ->
         Map.update!(map, :last_seen, fn _ -> DateTime.utc_now() end)
       end)
 
