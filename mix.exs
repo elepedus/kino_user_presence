@@ -9,7 +9,8 @@ defmodule KinoUserPresence.MixProject do
       start_permanent: Mix.env() == :prod,
       description: description(),
       name: "Kino User Presence",
-      deps: deps()
+      deps: deps(),
+      package: package()
     ]
   end
 
@@ -17,6 +18,13 @@ defmodule KinoUserPresence.MixProject do
     """
     Provides user presence tracking functionality for Livebook applications.
     """
+  end
+
+  def package() do
+    [
+      licenses: ["Apache-2.0"],
+      links: %{"GitHub" => "https://github.com/elepedus/kino_user_presence"}
+    ]
   end
 
   # Run "mix help compile.app" to learn about applications.
