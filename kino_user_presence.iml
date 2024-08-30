@@ -8,6 +8,9 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.elixir_ls" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/fss" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/kino" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/table" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/castore" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/fss" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/kino" />
@@ -29,6 +32,12 @@
       <excludeFolder url="file://$MODULE_DIR$/deps" />
       <excludeFolder url="file://$MODULE_DIR$/doc" />
       <excludeFolder url="file://$MODULE_DIR$/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/earmark_parser" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ex_doc" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/makeup" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/makeup_elixir" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/makeup_erlang" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/nimble_parsec" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="kino" level="project" />
@@ -69,5 +78,17 @@
     <orderEntry type="library" name="meck" level="project" />
     <orderEntry type="library" name="markdown" level="project" />
     <orderEntry type="library" name="excoveralls" level="project" />
+    <orderEntry type="library" name="earmark_parser" level="project" />
+    <orderEntry type="library" name="makeup_erlang" level="project" />
+    <orderEntry type="library" name="makeup_c" level="project" />
+    <orderEntry type="library" name="makeup_html" level="project" />
+    <orderEntry type="library" name="floki" level="project" />
+    <orderEntry type="library" name="easyhtml" level="project" />
+    <orderEntry type="library" name="makeup" level="project" />
+    <orderEntry type="library" name="nimble_parsec" level="project" />
+    <orderEntry type="library" name="unicode_set" level="project" />
+    <orderEntry type="library" name="benchee" level="project" />
+    <orderEntry type="library" name="benchee_markdown" level="project" />
+    <orderEntry type="library" name="stream_data" level="project" />
   </component>
 </module>

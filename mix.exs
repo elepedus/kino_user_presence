@@ -37,7 +37,7 @@ defmodule KinoUserPresence.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:kino, "~> 0.13.2"},
+      {:kino, "~> 0.13.2 or ~> 0.14.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
